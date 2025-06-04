@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* question.css */
+.formbox {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background: #d1e7ff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.formbox h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.left_form p, .right_form {
+  margin-bottom: 20px;
+}
+
+.formbox label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.formbox input[type="text"],
+.formbox input[type="tel"],
+.formbox input[type="email"],
+.formbox textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.formbox input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.formbox input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background-color: #484848;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.formbox input[type="submit"]:hover {
+  background-color: #151515;
+}
