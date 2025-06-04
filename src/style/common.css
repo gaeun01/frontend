@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* 공통서식 common 
+  header, footer
+*/
+/* Header 전체 박스 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 0 16px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* 아이콘 버튼 공통 스타일 */
+.icon-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* 로고 묶음 */
+.logo-wrap {
+  align-items: center;
+}
+
+/* 로고 이미지 */
+.logo-wrap img {
+  width: 50px;
+}
+
+
+
